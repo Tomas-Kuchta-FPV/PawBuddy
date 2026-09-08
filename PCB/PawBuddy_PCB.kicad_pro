@@ -661,7 +661,7 @@
         "uuid": "ddc031a5-f801-471f-9629-7d18bb02ea71"
       }
     ],
-    "used_designators": "L1,R11-12,U4-6,C6-15,#PWR16-41",
+    "used_designators": "L1,JP1-3,R11-12,U4-11,D1,C6-15,#PWR16-51",
     "variants": []
   },
   "sheets": [
@@ -680,6 +680,10 @@
     [
       "bbb75299-8683-40e9-bcaa-d3bebe81f345",
       "Power"
+    ],
+    [
+      "41b50cd4-0ec4-47ef-b792-7faf5d5ade19",
+      "Pheripherials"
     ]
   ],
   "text_variables": {},
