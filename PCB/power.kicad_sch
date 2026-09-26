@@ -1852,7 +1852,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1877,7 +1877,7 @@
 					)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDREF"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1909,7 +1909,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1931,10 +1931,46 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDREF_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1945,7 +1981,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDREF_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -3038,7 +3074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 190.5 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3049,7 +3085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0516b67b-ae3f-46b2-9508-4d5c027348b5")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR40"
 			(at 190.5 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3060,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 190.5 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3092,7 +3128,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 190.5 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3115,14 +3151,14 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR040")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 246.38 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3133,7 +3169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b4535e2-a54f-4c2c-9858-255b43be5626")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR41"
 			(at 246.38 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3144,7 +3180,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 246.38 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,7 +3212,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 246.38 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3199,7 +3235,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR041")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -3457,7 +3493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 57.15 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3468,7 +3504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "386629ac-e473-4c9f-ad19-5f93bf8497bf")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR49"
 			(at 57.15 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3479,7 +3515,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 57.15 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3511,7 +3547,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 57.15 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3528,14 +3564,14 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR049")
+					(reference "#PWR49")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 147.32 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -3546,7 +3582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d488e8-2ca1-4d41-ba30-aa597371f7d4")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR38"
 			(at 147.32 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3557,7 +3593,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 147.32 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3589,7 +3625,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 147.32 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3612,7 +3648,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR038")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -3885,7 +3921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 90.17 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3896,7 +3932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cc8a44d-0e52-4277-b94f-cc74862d1879")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR46"
 			(at 90.17 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3907,7 +3943,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 90.17 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3975,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 90.17 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3956,7 +3992,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR046")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 38.1 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -4215,7 +4251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f6c945-5ded-44e3-8821-017583717e08")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR45"
 			(at 38.1 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4226,7 +4262,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 38.1 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4294,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 38.1 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4275,14 +4311,14 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR045")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 219.71 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -4293,7 +4329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfcaeca2-1598-45f3-88ee-00d6df14aa96")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR37"
 			(at 219.71 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4304,7 +4340,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 219.71 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4336,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 219.71 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4359,7 +4395,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR037")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -4534,7 +4570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "power:GNDREF")
 		(at 205.74 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -4545,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deaa3c59-27e1-435c-a625-781edc935309")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR39"
 			(at 205.74 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4556,7 +4592,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GNDREF"
 			(at 205.74 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4588,7 +4624,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
 			(at 205.74 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4611,7 +4647,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/bbb75299-8683-40e9-bcaa-d3bebe81f345"
-					(reference "#PWR039")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)

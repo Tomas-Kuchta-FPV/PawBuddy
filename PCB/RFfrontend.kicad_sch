@@ -1,0 +1,67 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c6276b48-099e-46bb-a51a-215f54e0036b")
+	(paper "A4")
+	(title_block
+		(title "PawBuddy - Dev Board")
+		(rev "V1")
+		(company "Tomas Kuchta")
+	)
+	(lib_symbols)
+	(text "BALFHB-WL-02D3\n\nMagic type ship"
+		(exclude_from_sim no)
+		(at 135.382 97.282 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "5969e03b-07d0-4aa9-86c6-4ed20d634030")
+	)
+	(hierarchical_label "RFO_HP"
+		(shape input)
+		(at 30.48 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06624cab-b232-4135-8667-afc81504144e")
+	)
+	(hierarchical_label "RFI_N"
+		(shape input)
+		(at 30.48 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a6dbf31-6a95-49b5-9557-00ff26335cf1")
+	)
+	(hierarchical_label "VR_PA"
+		(shape input)
+		(at 30.48 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b29c897-afe6-43ff-868e-71dfc5f594b5")
+	)
+	(hierarchical_label "RFI_P"
+		(shape input)
+		(at 30.48 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4278d88-209a-40d3-a2a7-4e61feb61ed7")
+	)
+)

@@ -661,7 +661,7 @@
         "uuid": "ddc031a5-f801-471f-9629-7d18bb02ea71"
       }
     ],
-    "used_designators": "L1,JP1-3,R11-12,U4-11,D1,C6-15,#PWR16-51",
+    "used_designators": "J3-4,L1,JP1-3,R11-13,U4-11,D1,C6-20,Y1,FB1,#PWR16-60",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,10 @@
     [
       "41b50cd4-0ec4-47ef-b792-7faf5d5ade19",
       "Pheripherials"
+    ],
+    [
+      "00cc28c1-9530-4947-a6b4-371fa300f49b",
+      "RF Frontend"
     ]
   ],
   "text_variables": {},
