@@ -10,6 +10,16 @@
 		(company "Tomas Kuchta")
 	)
 	(lib_symbols)
+	(text "https://github.com/meshtastic/firmware/blob/develop/variants/stm32/rak3172/rfswitch.h"
+		(exclude_from_sim no)
+		(at 132.842 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c9e098e-970a-4530-b87d-5a4cb9268475")
+	)
 	(text "BALFHB-WL-02D3\n\nMagic type ship"
 		(exclude_from_sim no)
 		(at 135.382 97.282 0)
