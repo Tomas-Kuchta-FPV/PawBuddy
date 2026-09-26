@@ -2239,7 +2239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0707c5d4-128c-4035-95f9-0c32af9f4fd7")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR07"
 			(at 63.5 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -2297,6 +2297,12 @@
 			(uuid "3611b781-34b7-469f-a79a-04452b298b8a")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "#PWR07")
@@ -2323,7 +2329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a98e404-ec14-489d-9dee-39082d65da7c")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 110.8711 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,6 +2417,12 @@
 			(uuid "b52b8994-5782-4b49-9e46-5bdff20f66ea")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "U1")
@@ -2437,7 +2449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2947aef5-7c52-421c-8fb6-f4e36ade6ec8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR02"
 			(at 109.22 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2495,6 +2507,12 @@
 			(uuid "69b8dfd2-8dbe-4d2d-9767-00d514d9db68")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "#PWR02")
@@ -2579,6 +2597,12 @@
 			(uuid "a884f70c-b6e2-45c4-8bfb-4b7a90067032")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "#FLG01")
@@ -2604,7 +2628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59748eaa-484d-4fab-99c0-c984577fb1b5")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 97.79 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2677,6 +2701,12 @@
 			(uuid "8c744dbc-6de1-4727-bd96-3af1ba316b7f")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "R4")
@@ -2703,7 +2733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3b8eac8-91f4-4fca-9281-e13bd725f6bc")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR01"
 			(at 90.17 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2761,6 +2791,12 @@
 			(uuid "01eefe66-0f79-4a6b-82c8-42ad5ed0afc2")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "#PWR01")
@@ -2904,6 +2940,12 @@
 			(uuid "e98241f8-bd32-4cb7-a22a-c800ea1d1290")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "J1")
@@ -2930,7 +2972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae7cbd5-4a17-41bf-9c80-d2c4bc7ffa0d")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR08"
 			(at 92.71 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2988,6 +3030,12 @@
 			(uuid "cf214d7c-0b35-4d29-8058-60f04102a988")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "#PWR08")
@@ -3014,7 +3062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0706a5-4ff9-4a80-9733-a150e04ff06b")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR09"
 			(at 109.22 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3072,6 +3120,12 @@
 			(uuid "f65d7ac5-d278-43ac-8f51-a1816c5726dd")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "#PWR09")
@@ -3098,7 +3152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef270ff7-58dc-4952-a803-c776ba8f88c1")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 87.63 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3171,6 +3225,12 @@
 			(uuid "9dd7b2e6-898d-4a17-b182-9c5c562ffc90")
 		)
 		(instances
+			(project "USBC"
+				(path "/9402f0fd-4abf-4374-8b5f-14f4c6a25de3"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "UBS-C_TYPE-C-31-M-12"
 				(path "/d915b4b4-54fd-4193-8810-936621a064e8"
 					(reference "R5")
@@ -3218,4 +3278,10 @@
 			"ffa0d67d-d327-49f3-8db9-500e5bab3958"
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

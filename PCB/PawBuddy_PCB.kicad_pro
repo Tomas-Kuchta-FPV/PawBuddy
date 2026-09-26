@@ -661,7 +661,7 @@
         "uuid": "ddc031a5-f801-471f-9629-7d18bb02ea71"
       }
     ],
-    "used_designators": "J3-4,L1,L3,JP1-3,R1-2,R11-14,U4-11,D1,D4,C6-35,Y1,FB1,#PWR3,#PWR5,#PWR16-74",
+    "used_designators": "#FLG1,J1-4,L1,L3,JP1-3,R1-2,R4-5,R11-14,U1-2,U4-11,D1,D4,C6-35,Y1,FB1,#PWR1-5,#PWR7-9,#PWR16-74",
     "variants": []
   },
   "sheets": [
@@ -674,20 +674,12 @@
       "MCU"
     ],
     [
-      "58e2bbde-2d8f-48f9-8dad-30c58bb3f27e",
-      "USBC_UART"
-    ],
-    [
       "bbb75299-8683-40e9-bcaa-d3bebe81f345",
       "Power"
     ],
     [
       "41b50cd4-0ec4-47ef-b792-7faf5d5ade19",
       "Pheripherials"
-    ],
-    [
-      "00cc28c1-9530-4947-a6b4-371fa300f49b",
-      "RF Frontend"
     ]
   ],
   "text_variables": {},

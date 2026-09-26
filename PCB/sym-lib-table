@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "RAK4630") (type "KiCad") (uri "${KIPRJMOD}/Assets/RAK4630/RAK4630.kicad_sym") (options "") (descr ""))
+)
