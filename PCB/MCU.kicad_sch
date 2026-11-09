@@ -3494,12 +3494,6 @@
 		(uuid "07f4be8d-0a82-42d4-9183-f89c4b14d490")
 	)
 	(junction
-		(at 134.62 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bffb657-d16f-41fa-bbbd-b26143ff24c1")
-	)
-	(junction
 		(at 149.86 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3637,6 +3631,10 @@
 		(at 184.15 72.39)
 		(uuid "e3e44405-ee72-45eb-8f61-27516b83c9c6")
 	)
+	(no_connect
+		(at 135.89 57.15)
+		(uuid "fffbada7-4e51-4f86-98de-6bbe05e96575")
+	)
 	(wire
 		(pts
 			(xy 49.53 160.02) (xy 52.07 160.02)
@@ -3646,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "03e564a6-5117-494f-a35e-9e645f4ed51c")
+	)
+	(wire
+		(pts
+			(xy 110.49 43.18) (xy 110.49 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04534b15-2afd-42b5-8d77-ee9b54a7d131")
 	)
 	(wire
 		(pts
@@ -3789,26 +3797,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 54.61) (xy 133.35 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4251e9b8-2a1c-4bf9-ae41-b324bac5aaef")
-	)
-	(wire
-		(pts
-			(xy 134.62 52.07) (xy 134.62 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ea318c-6658-40f8-944f-345792f1fd0d")
-	)
-	(wire
-		(pts
 			(xy 227.33 142.24) (xy 234.95 142.24)
 		)
 		(stroke
@@ -3816,6 +3804,16 @@
 			(type default)
 		)
 		(uuid "47b06540-b312-4dd3-87c9-90b2d222935e")
+	)
+	(wire
+		(pts
+			(xy 125.73 50.8) (xy 125.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb622f8-4dac-48a9-986a-d69b71b700fc")
 	)
 	(wire
 		(pts
@@ -3829,13 +3827,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 54.61) (xy 133.35 57.15)
+			(xy 133.35 52.07) (xy 133.35 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5171ef2a-382b-4416-a754-75a826714d1a")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 160.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5658b392-d84d-4dbc-b84c-d7834eb69a1a")
 	)
 	(wire
 		(pts
@@ -3869,6 +3877,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 71.12) (xy 81.28 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67545046-ffb8-4230-9e13-51100625efdf")
+	)
+	(wire
+		(pts
 			(xy 138.43 57.15) (xy 138.43 52.07)
 		)
 		(stroke
@@ -3879,7 +3897,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 64.77) (xy 99.06 64.77)
+			(xy 175.26 109.22) (xy 175.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dedf945-c1fa-4143-81cd-a63207270128")
+	)
+	(wire
+		(pts
+			(xy 102.87 64.77) (xy 95.25 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3956,6 +3984,16 @@
 			(type default)
 		)
 		(uuid "7b9af139-91a6-4c24-a033-ed80d0825f1c")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c967bbc-76c7-45a0-a59d-5830166b1b65")
 	)
 	(wire
 		(pts
@@ -4049,7 +4087,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 64.77) (xy 99.06 60.96)
+			(xy 95.25 64.77) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4069,13 +4107,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 57.15) (xy 135.89 54.61)
+			(xy 160.02 109.22) (xy 160.02 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b55d4c5-d6e5-49a7-a6b5-30ca929a6268")
+		(uuid "9fc7870c-ec9b-44ab-b317-0f16dc1446b1")
 	)
 	(wire
 		(pts
@@ -4149,13 +4187,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 134.62 54.61)
+			(xy 109.22 152.4) (xy 109.22 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8cc4521-f4d1-4540-a021-490f83824842")
+		(uuid "b991c55c-70f7-4ea2-b13a-8a7147f30c4d")
 	)
 	(wire
 		(pts
@@ -4236,6 +4274,16 @@
 			(type default)
 		)
 		(uuid "bea617e3-7d88-4750-b708-405dcffcb5af")
+	)
+	(wire
+		(pts
+			(xy 109.22 160.02) (xy 109.22 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f9864b-0471-4b27-a0f1-48b9be796c55")
 	)
 	(wire
 		(pts
@@ -4369,6 +4417,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 116.84) (xy 175.26 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec878390-e806-4dd2-afef-d7cd945c508e")
+	)
+	(wire
+		(pts
+			(xy 125.73 43.18) (xy 125.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee780e4f-c0ae-4a09-b157-dad39027a7af")
+	)
+	(wire
+		(pts
 			(xy 26.67 177.8) (xy 26.67 180.34)
 		)
 		(stroke
@@ -4376,6 +4444,16 @@
 			(type default)
 		)
 		(uuid "f1da7991-1afb-4494-a2bd-ff49973d34bd")
+	)
+	(wire
+		(pts
+			(xy 81.28 63.5) (xy 81.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f752e79e-a4ad-423c-a218-ead3479a90db")
 	)
 	(wire
 		(pts
@@ -4408,7 +4486,7 @@
 		(uuid "ffa0d67d-d327-49f3-8db9-500e5bab3958")
 	)
 	(image
-		(at 271.78 29.21)
+		(at 261.62 40.64)
 		(scale 0.328123)
 		(uuid "77dc0131-6d39-4592-9929-e524c0844032")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAIAAACDr150AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -7208,8 +7286,8 @@
 		)
 	)
 	(image
-		(at 248.92 29.21)
-		(scale 0.469869)
+		(at 237.49 40.64)
+		(scale 0.613691)
 		(uuid "ef04e851-f18f-48fb-b33f-86379b7a7e2f")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAX8AAAG/CAIAAAA/zkCEAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOy9+ZMkV3Im5u7viIjMrLMPoAEMMDcwmJOcGXJOcjlc7tK02uWufpCt1kxm+rukX2Qy07EriUaj"
@@ -10246,6 +10324,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 175.26 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0082d1da-ccbf-4bb2-bc90-b8e7e9da1df4")
+		(property "Reference" "#PWR075"
+			(at 175.26 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 175.26 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a68ec9c0-a83c-49f1-aa5a-c1d3fa1ffe7b")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 26.67 182.88 0)
 		(unit 1)
@@ -10257,7 +10414,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b8d986a-4948-492e-8d3a-01df1477a918")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR01"
 			(at 26.67 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -10317,7 +10474,86 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR017")
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 160.02 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0baf3d8e-598d-42b7-a148-bd0fd2e1f0c0")
+		(property "Reference" "#PWR078"
+			(at 160.02 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 160.02 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 160.02 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2522e48e-32e1-4628-9697-24a4248787d0")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -10413,7 +10649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a98e404-ec14-489d-9dee-39082d65da7c")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 77.8511 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10471,7 +10707,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2827654"
+		(property "MPN" "USBLC6-2SC6"
 			(at 76.2 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10509,7 +10745,99 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "U7")
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 109.22 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "230255e9-0a44-4ab4-b75e-a59003c10046")
+		(property "Reference" "C13"
+			(at 105.41 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 105.41 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 110.1852 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 109.22 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM188R71H104KA57J"
+			(at 109.22 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "36a6fc72-85a5-4be0-a76d-5f78b178e3cd")
+		)
+		(pin "1"
+			(uuid "0382f535-2e20-48fa-a281-f95c6d16e5cf")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10526,7 +10854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2556d8c5-ded1-4e13-8766-a24d06a2980a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 153.67 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10587,7 +10915,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10605,7 +10933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2947aef5-7c52-421c-8fb6-f4e36ade6ec8")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR04"
 			(at 76.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10671,7 +10999,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR015")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -10688,7 +11016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f76e7f5-33de-4319-86a2-dd805af4da89")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 130.81 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +11077,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10767,7 +11095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3415dd1e-2024-4d27-b79a-70256470ebca")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR03"
 			(at 59.69 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -10827,7 +11155,85 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR018")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 109.22 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f2a2c9-43d6-4fd1-ba2b-82e716f2d14a")
+		(property "Reference" "#PWR067"
+			(at 109.22 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 109.22 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 109.22 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc475757-3682-4570-b157-50a9543388bf")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -10844,7 +11250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3abe7618-5c37-425b-a808-c1289de693a7")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG02"
 			(at 52.07 133.985 0)
 			(hide yes)
 			(show_name no)
@@ -10911,7 +11317,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#FLG04")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -10928,7 +11334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59748eaa-484d-4fab-99c0-c984577fb1b5")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 64.77 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +11356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.452 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -10983,7 +11389,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84375"
+		(property "MPN" "RC0603FR-105K1L"
 			(at 62.23 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11009,7 +11415,85 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "R10")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 125.73 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ec5fec6-6409-4e99-9354-470a85994650")
+		(property "Reference" "#PWR074"
+			(at 125.73 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 125.73 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 125.73 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b7236ce-29a7-4945-bfd4-c3d52995940a")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -11021,7 +11505,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11047,7 +11531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 222.25 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11091,6 +11575,17 @@
 				)
 			)
 		)
+		(property "MPN" "N/A"
+			(at 222.25 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5cf60f5e-6642-46d1-bb41-7fffffe3c89e")
 		)
@@ -11116,40 +11611,40 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 134.62 52.07 0)
+		(lib_id "Device:C")
+		(at 125.73 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "684fba3a-4d02-40b5-97bc-a5d35b7ff4f5")
-		(property "Reference" "#PWR01"
-			(at 134.62 55.88 0)
-			(hide yes)
+		(uuid "7093c960-a664-4397-8458-83d29d9a7ca4")
+		(property "Reference" "C15"
+			(at 121.92 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 134.62 46.99 0)
+		(property "Value" "100nF"
+			(at 121.92 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 52.07 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 126.6952 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11160,7 +11655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 52.07 0)
+			(at 125.73 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11170,8 +11665,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 134.62 52.07 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11180,14 +11675,28 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "GCM188R71H104KA57J"
+			(at 125.73 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a26d5741-75e4-468c-b5ce-88ad2b6c0122")
 		)
 		(pin "1"
-			(uuid "874bcd8e-acb2-478b-83a5-7b29f30f7e15")
+			(uuid "347575a5-1ffe-4d01-a96f-bcd20c0e443b")
 		)
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR01")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -11195,7 +11704,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 99.06 60.96 0)
+		(at 95.25 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11205,8 +11714,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71537f44-9d07-42e2-853a-952591539d7a")
-		(property "Reference" "#PWR05"
-			(at 99.06 64.77 0)
+		(property "Reference" "#PWR06"
+			(at 95.25 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11217,7 +11726,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 99.06 55.88 0)
+			(at 95.25 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11227,7 +11736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 60.96 0)
+			(at 95.25 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +11747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 60.96 0)
+			(at 95.25 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11249,7 +11758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 99.06 60.96 0)
+			(at 95.25 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11265,7 +11774,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11282,7 +11791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "74c97c93-9442-41d3-be6e-c1bed34afc89")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 148.59 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11343,7 +11852,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11360,7 +11869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76b601ed-fbd7-4588-bdd1-5b6e95e53dd4")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 156.21 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11421,7 +11930,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11438,7 +11947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7912a774-d912-47e6-a7f3-7217e65be087")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR09"
 			(at 138.43 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11499,7 +12008,255 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR016")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ca5352d-176e-4495-aa8e-a6430e171078")
+		(property "Reference" "C17"
+			(at 163.83 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 163.83 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 160.9852 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ZRB18AR61E106ME01L"
+			(at 160.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c5a67b7-2c3e-4800-8598-195e83bbe9ca")
+		)
+		(pin "1"
+			(uuid "7fbaef0d-162c-4ef8-aefc-a239911423f3")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 133.35 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e8c0476-41a5-4412-a18f-b94c8ae1aad8")
+		(property "Reference" "#PWR053"
+			(at 133.35 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 133.35 48.768 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 133.35 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f763ca45-d7f6-4b56-b566-4c3f6b495274")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 110.49 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82396395-229d-497a-bc84-42f5da0bd542")
+		(property "Reference" "#PWR072"
+			(at 110.49 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 110.49 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 110.49 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff994b15-9f03-44f7-9f4d-9f0fb82974cd")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -11517,7 +12274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97aac295-9279-4a37-93aa-530c8ead6395")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR017"
 			(at 260.35 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11577,7 +12334,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11650,7 +12407,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C115357"
+		(property "MPN" "SKRKAHE020"
 			(at 260.35 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -11671,6 +12428,177 @@
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 109.22 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c38c2dd-30d4-42d2-bd70-abaf8aca497a")
+		(property "Reference" "#PWR068"
+			(at 109.22 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 109.22 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 109.22 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4b055db-264c-40c6-b71c-596dec7f15b1")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 175.26 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "9d368683-6b2b-41c6-82b0-804fe73b0719")
+		(property "Reference" "C16"
+			(at 179.07 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 179.07 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 174.2948 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GCM188R71H104KA57J"
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "df2fc7ee-b859-4332-adcc-7eaa84cf0195")
+		)
+		(pin "1"
+			(uuid "1cb58a9a-83b3-4dab-be2d-39fa26bd9d36")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11742,7 +12670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49678"
+		(property "MPN" "GCM188R71H104KA57J"
 			(at 252.73 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -11780,7 +12708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9cb4e4-2371-49e6-ac01-2cd5bc730ef4")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 158.1786 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11826,18 +12754,6 @@
 			)
 		)
 		(property "Description" "Low-power long-range transceiver module"
-			(at 143.51 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RAK4630/RAK/view-part/?ref=snap"
 			(at 143.51 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11996,7 +12912,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12014,7 +12930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b790ae29-cfa7-47e4-ad3f-3b846be87238")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR05"
 			(at 76.2 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12074,7 +12990,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR019")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12092,7 +13008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3b8eac8-91f4-4fca-9281-e13bd725f6bc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR02"
 			(at 57.15 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -12158,7 +13074,428 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR013")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 67.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c760ed55-13ad-4717-b223-53fe43bd2f0b")
+		(property "Reference" "C12"
+			(at 77.47 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 77.47 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 80.3148 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ZRB18AR61E106ME01L"
+			(at 81.28 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa8b8f03-3961-4693-a153-034274f52e55")
+		)
+		(pin "1"
+			(uuid "38c9bfac-7bcf-4851-b9c0-35bf8f4ae110")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 160.02 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f999c2-a177-4eeb-999d-354362963509")
+		(property "Reference" "#PWR077"
+			(at 160.02 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 160.02 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 160.02 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8028d77-eaf5-4be3-9437-400b8e121289")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 110.49 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9109e49-0ae9-4dfd-a258-6c98656c52e9")
+		(property "Reference" "#PWR071"
+			(at 110.49 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 110.49 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 110.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a92f64a7-d8f3-476e-bd67-a74497eb429f")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 46.99 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb2ccf5e-cb15-414d-accf-3e1cc0a530e5")
+		(property "Reference" "C14"
+			(at 106.68 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 106.68 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 109.5248 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "ZRB18AR61E106ME01L"
+			(at 110.49 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2dfb8c5-dbe6-4089-90e0-a67bf6f6afb9")
+		)
+		(pin "1"
+			(uuid "52579828-cd87-4824-8be6-f6bb9965458d")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 81.28 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd3ddc47-ba9f-47f5-a52b-6ec03caa5753")
+		(property "Reference" "#PWR08"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 81.28 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ddbb93f-cba1-4949-b07c-d85621802def")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12176,7 +13513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b808db-71ca-4bb4-9bca-5679ec09dc84")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR016"
 			(at 260.35 127 0)
 			(hide yes)
 			(show_name no)
@@ -12236,7 +13573,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR03")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12255,7 +13592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d73368a9-e602-4b78-a616-ba44ea1471b6")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 34.29 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12308,7 +13645,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C165948"
+		(property "MPN" "UJ20-C-H-G-SMT-2A-P16-TR"
 			(at 34.29 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12379,7 +13716,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12395,9 +13732,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d87d473b-c296-4abc-98b5-22069ededb6a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR012"
 			(at 149.86 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -12409,7 +13745,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 149.86 113.03 0)
+			(at 148.59 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12457,7 +13793,85 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR02")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 81.28 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcf6a664-bc5a-4a82-9358-03b667194201")
+		(property "Reference" "#PWR066"
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 81.28 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19f0fdd4-2fff-49c0-a43e-c1831a083037")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -12474,7 +13888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3f068b8-d14a-4a1f-9db9-14c6d0255f94")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 195.58 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12535,7 +13949,85 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR09")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 125.73 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e551528d-b1c1-4b6f-92da-0e2ebcf29cc8")
+		(property "Reference" "#PWR073"
+			(at 125.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 125.73 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 125.73 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2033e53c-2890-47f3-89c8-70781b693788")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -12564,7 +14056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 262.89 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12608,7 +14100,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84376"
+		(property "MPN" "RE0603FRE1010KL"
 			(at 260.35 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -12636,6 +14128,85 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
+		(at 175.26 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec9e89ab-e1d6-417c-ad21-e6c8d85ee99a")
+		(property "Reference" "#PWR076"
+			(at 175.26 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 175.26 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f67a67f8-4cd5-400f-8e60-42d01bdf2fd3")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
 		(at 138.43 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -12645,7 +14216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eea93912-03ac-4818-83d3-09d0466c4305")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 138.43 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +14277,7 @@
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -12724,7 +14295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef270ff7-58dc-4952-a803-c776ba8f88c1")
-		(property "Reference" "R9"
+		(property "Reference" "R1"
 			(at 54.61 170.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12746,7 +14317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 58.928 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -12779,7 +14350,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84375"
+		(property "MPN" "RC0603FR-105K1L"
 			(at 57.15 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -12805,7 +14376,7 @@
 			)
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50"
-					(reference "R9")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12846,8 +14417,8 @@
 		)
 	)
 	(sheet
-		(at 241.3 17.78)
-		(size 39.37 22.86)
+		(at 224.79 25.4)
+		(size 48.26 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12862,7 +14433,7 @@
 		)
 		(uuid "41b50cd4-0ec4-47ef-b792-7faf5d5ade19")
 		(property "Sheetname" "Pheripherials"
-			(at 241.3 17.0176 0)
+			(at 224.79 24.6376 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12873,7 +14444,7 @@
 			)
 		)
 		(property "Sheetfile" "pheripherials.kicad_sch"
-			(at 241.3 41.2754 0)
+			(at 224.79 56.5154 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
