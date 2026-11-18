@@ -884,283 +884,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN_BRT"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN_BRT"
-				(at 3.81 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "NPN bias resistor bipolar junction transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NPN_BRT_0_1"
-				(rectangle
-					(start -6.35 0.508)
-					(end -4.826 -0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.318 -2.286)
-					(end -3.302 -0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.81 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -0.762) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.286) (xy -3.81 -3.302) (xy 1.27 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy -4.826 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.524) (xy -0.635 -1.524)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -3.302)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_BRT_1_1"
-				(polyline
-					(pts
-						(xy -0.635 0.635) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1463,6 +1186,280 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_NPN_BRT_BEC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_BRT_BEC"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN bias resistor transistor, base/emitter/collector"
+				(at -3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NPN_BRT_BEC_0_1"
+				(rectangle
+					(start -6.35 0.508)
+					(end -4.826 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.318 -2.286)
+					(end -3.302 -0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -0.762) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.286) (xy -3.81 -3.048) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -4.826 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.905) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.048)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_NPN_BRT_BEC_1_1"
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.508 -1.27) (xy 1.016 -2.286) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2937,7 +2934,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 78.74 33.02 180)
+		(at 78.74 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2947,7 +2944,7 @@
 		)
 		(uuid "4f9cafd8-a0b6-47e5-b78b-ebb3c701f8cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.0754 33.02 0)
+			(at 71.0754 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,30 +2969,6 @@
 		(uuid "59a31a65-322f-4ae5-9e38-d870668aff11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.6015 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 78.74 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66d6c6a1-2b16-49e7-a8a9-48daf7a22979")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2472 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,6 +3113,30 @@
 		(uuid "bfb2f2dc-e697-4e08-ae19-0f5e8abefd53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.69 78.7846 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 78.74 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0cdaef7-1414-4c59-b654-fbc42e1c11c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.2472 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,102 +3958,6 @@
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50/41b50cd4-0ec4-47ef-b792-7faf5d5ade19"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_BRT")
-		(at 154.94 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bae4660-c2be-4344-bc0c-42c88c013000")
-		(property "Reference" "Q3"
-			(at 158.75 77.7747 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DTC043ZEBTL"
-			(at 158.75 80.3147 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
-			(at 154.94 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "NPN bias resistor bipolar junction transistor"
-			(at 154.94 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "DTC043ZEBTL"
-			(at 154.94 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "287a6a80-824d-47e9-aefc-63d7ce521d76")
-		)
-		(pin "B"
-			(uuid "96f4daad-af4e-4aab-b687-47374fd53207")
-		)
-		(pin "E"
-			(uuid "8c3ac9cf-72eb-467a-b6f8-46e98ce1a726")
-		)
-		(instances
-			(project "PawBuddy_PCB"
-				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50/41b50cd4-0ec4-47ef-b792-7faf5d5ade19"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4980,6 +4881,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_BRT_BEC")
+		(at 154.94 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61401eb5-1278-4869-8c77-e0e07d5fdd9f")
+		(property "Reference" "Q3"
+			(at 158.75 77.6477 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTC043ZEBTL"
+			(at 158.75 80.1877 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-416"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/dtc043zebtl-e.pdf"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN bias resistor transistor, base/emitter/collector"
+			(at 151.13 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DTC043ZEBTL"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f27befc2-cd21-4043-908d-b1cbd8ef1bc9")
+		)
+		(pin "1"
+			(uuid "99bdec8e-dd04-4817-8875-4ab009e709ce")
+		)
+		(pin "3"
+			(uuid "34962950-87a4-4498-a826-55fd1fccccfa")
+		)
+		(instances
+			(project "PawBuddy_PCB"
+				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71/cad18380-8b9c-4903-b9e2-0a5eb9220f50/41b50cd4-0ec4-47ef-b792-7faf5d5ade19"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 215.9 69.85 270)
 		(unit 1)
@@ -5400,7 +5397,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BRT")
+		(lib_id "Transistor_BJT:Q_NPN_BRT_BEC")
 		(at 147.32 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -5410,9 +5407,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9033df70-78d6-4e83-85d5-4c8309429df8")
+		(uuid "806d9690-43c1-4453-865b-de8cead30ae2")
 		(property "Reference" "Q2"
-			(at 151.13 143.8147 0)
+			(at 151.13 143.6877 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5423,7 +5420,7 @@
 			)
 		)
 		(property "Value" "DTC043ZEBTL"
-			(at 151.13 146.3547 0)
+			(at 151.13 146.2277 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5444,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/dtc043zebtl-e.pdf"
 			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5455,8 +5452,8 @@
 				)
 			)
 		)
-		(property "Description" "NPN bias resistor bipolar junction transistor"
-			(at 147.32 144.78 0)
+		(property "Description" "NPN bias resistor transistor, base/emitter/collector"
+			(at 143.51 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5477,14 +5474,14 @@
 				)
 			)
 		)
-		(pin "C"
-			(uuid "5787bad9-e00b-4a4f-9e24-c2cc5645be0d")
+		(pin "2"
+			(uuid "fb1e46e8-157e-4f64-ad5f-02f311fa9f81")
 		)
-		(pin "B"
-			(uuid "2394003e-cf18-43e4-8bd3-50e1188c58dd")
+		(pin "1"
+			(uuid "97293018-3f14-44a7-91d7-08da6f4ca489")
 		)
-		(pin "E"
-			(uuid "48571b33-c60f-4cb8-a39b-2879afa2e87e")
+		(pin "3"
+			(uuid "a96e38a5-e4ed-4d75-9620-a4f4bf1e2ef8")
 		)
 		(instances
 			(project "PawBuddy_PCB"
@@ -5608,7 +5605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 88.9 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6592,7 +6589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BRT")
+		(lib_id "Transistor_BJT:Q_NPN_BRT_BEC")
 		(at 105.41 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -6604,7 +6601,7 @@
 		(fields_autoplaced yes)
 		(uuid "e33d4ad3-563f-4613-b0b1-2d1b3342583b")
 		(property "Reference" "Q1"
-			(at 109.22 143.8147 0)
+			(at 109.22 143.6877 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6615,7 +6612,7 @@
 			)
 		)
 		(property "Value" "DTC043ZEBTL"
-			(at 109.22 146.3547 0)
+			(at 109.22 146.2277 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6636,7 +6633,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/dtc043zebtl-e.pdf"
 			(at 105.41 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6647,8 +6644,8 @@
 				)
 			)
 		)
-		(property "Description" "NPN bias resistor bipolar junction transistor"
-			(at 105.41 144.78 0)
+		(property "Description" "NPN bias resistor transistor, base/emitter/collector"
+			(at 101.6 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,13 +6666,13 @@
 				)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "10de80c8-58df-4154-84a1-3e1f1accbf2c")
 		)
-		(pin "B"
+		(pin "1"
 			(uuid "e2d4951b-c436-43fc-8d96-f5ccbf75a52a")
 		)
-		(pin "E"
+		(pin "3"
 			(uuid "3d5492d1-1c60-420c-a074-11264d55bb6c")
 		)
 		(instances
