@@ -4094,7 +4094,7 @@
 				)
 			)
 		)
-		(property "MPN" "SM02B-SRSS-TB"
+		(property "MPN" "SM02B-SRSS-TB(LF)(SN) "
 			(at 124.46 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6700,7 +6700,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPS628438DRL"
+		(property "MPN" "TPS628438DRLR "
 			(at 165.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6810,7 +6810,7 @@
 				)
 			)
 		)
-		(property "MPN" " MAX1811ESA+T "
+		(property "MPN" "MAX1811ESA+T "
 			(at 168.91 72.39 0)
 			(hide yes)
 			(show_name no)

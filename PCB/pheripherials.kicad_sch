@@ -6007,7 +6007,7 @@
 				)
 			)
 		)
-		(property "MPN" "SM02B-SRSS-TB"
+		(property "MPN" "SM04B-SRSS-TB(LF)(SN) "
 			(at 226.06 67.31 0)
 			(hide yes)
 			(show_name no)
