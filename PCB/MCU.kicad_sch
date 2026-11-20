@@ -3464,6 +3464,16 @@
 		)
 		(uuid "0a1aca4a-5737-4d4a-b169-1132161e5352")
 	)
+	(text "(Image credit: flywoo, senrion)"
+		(exclude_from_sim no)
+		(at 257.556 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a47b9bc0-e2c7-4c94-9f34-cec15d18790b")
+	)
 	(text_box "UBS-type-C_31-M-12"
 		(exclude_from_sim no)
 		(at 17.78 120.65 0)
@@ -12362,7 +12372,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SKRKAHE020"
+		(property "Value" "tactile switch"
 			(at 261.62 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,7 +12383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 255.27 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12406,7 +12416,7 @@
 				)
 			)
 		)
-		(property "MPN" "SKRKAHE020"
+		(property "MPN" "B3U-1000P"
 			(at 260.35 143.51 90)
 			(hide yes)
 			(show_name no)

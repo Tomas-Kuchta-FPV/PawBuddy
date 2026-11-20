@@ -5739,7 +5739,7 @@
 				)
 			)
 		)
-		(property "MPN" "SHT40-AD1B-R3"
+		(property "MPN" "SHT40-AD1B-R2"
 			(at 92.71 64.77 0)
 			(hide yes)
 			(show_name no)
