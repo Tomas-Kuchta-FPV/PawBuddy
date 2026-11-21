@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PawBuddy - Dev Board")
-		(rev "V1")
+		(rev "V1.1")
 		(company "Tomas Kuchta")
 	)
 	(lib_symbols
@@ -3239,7 +3239,18 @@
 				)
 			)
 		)
-		(property "MPN" " AF0603FR-074K7L"
+		(property "MPN" "RE0603DRE074K7L"
+			(at 106.68 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 106.68 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3331,7 +3342,18 @@
 				)
 			)
 		)
-		(property "MPN" "GCM188R71H104KA57J"
+		(property "MPN" "C0603C104K3RACTU"
+			(at 186.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 186.69 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3580,7 +3602,18 @@
 				)
 			)
 		)
-		(property "MPN" " AF0603FR-074K7L"
+		(property "MPN" "RE0603DRE074K7L"
+			(at 148.59 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 148.59 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -3673,7 +3706,18 @@
 				)
 			)
 		)
-		(property "MPN" "RE0603FRE1010KL"
+		(property "MPN" "RC0603JR-0710KL"
+			(at 59.69 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 59.69 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3766,7 +3810,18 @@
 				)
 			)
 		)
-		(property "MPN" "GCM188R71H104KA57J"
+		(property "MPN" "C0603C104K3RACTU"
+			(at 109.22 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 109.22 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3858,7 +3913,18 @@
 				)
 			)
 		)
-		(property "MPN" "GCM188R71H104KA57J"
+		(property "MPN" "C0603C104K3RACTU"
+			(at 198.12 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 198.12 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4030,7 +4096,18 @@
 				)
 			)
 		)
-		(property "MPN" " AF0603FR-074K7L"
+		(property "MPN" "RE0603DRE074K7L"
+			(at 156.21 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 156.21 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4123,7 +4200,18 @@
 				)
 			)
 		)
-		(property "MPN" "RC0603FR-071M5L"
+		(property "MPN" "MCWR06W1504FTL"
+			(at 203.2 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 203.2 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +4693,18 @@
 				)
 			)
 		)
-		(property "MPN" "RE0603FRE1010KL"
+		(property "MPN" "RC0603JR-0710KL"
+			(at 50.8 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 50.8 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4865,6 +4964,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 106.68 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "34b3b84a-9af9-4e90-a022-dd0ebe8c57ff")
 		)
@@ -4948,6 +5058,17 @@
 			)
 		)
 		(property "MPN" "DTC043ZEBTL"
+			(at 154.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 154.94 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5210,6 +5331,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 203.2 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2e3563b3-a890-4410-8c2e-a95ab075a710")
 		)
@@ -5370,7 +5502,18 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A476MQYNNWE"
+		(property "MPN" "CL21A476MQYNNNE"
+			(at 193.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 193.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5464,6 +5607,17 @@
 			)
 		)
 		(property "MPN" "DTC043ZEBTL"
+			(at 147.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5638,7 +5792,18 @@
 				)
 			)
 		)
-		(property "MPN" "N/A"
+		(property "MPN" "-"
+			(at 88.9 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 88.9 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5750,6 +5915,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 92.71 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "56d53c16-8f0e-4df5-89f3-ab62e662fa48")
 		)
@@ -5839,6 +6015,17 @@
 			)
 		)
 		(property "MPN" "150060BS75000 "
+			(at 148.59 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 148.59 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -6008,6 +6195,17 @@
 			)
 		)
 		(property "MPN" "SM04B-SRSS-TB(LF)(SN) "
+			(at 226.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 226.06 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6666,6 +6864,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 105.41 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "10de80c8-58df-4154-84a1-3e1f1accbf2c")
 		)
@@ -6831,6 +7040,17 @@
 			)
 		)
 		(property "MPN" "SI2371EDS-T1-GE3"
+			(at 170.18 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 170.18 60.96 90)
 			(hide yes)
 			(show_name no)

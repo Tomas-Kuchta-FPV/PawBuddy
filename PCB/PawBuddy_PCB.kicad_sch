@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "PawBuddy - Dev Board")
-		(rev "V1")
+		(rev "V1.1")
 		(company "Tomas Kuchta")
 	)
 	(lib_symbols
@@ -42018,6 +42018,28 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "-"
+			(at 99.06 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71"
@@ -42094,6 +42116,28 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 99.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "-"
+			(at 99.06 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PawBuddy_PCB"
 				(path "/ddc031a5-f801-471f-9629-7d18bb02ea71"
@@ -42160,6 +42204,28 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 99.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 99.06 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "-"
 			(at 99.06 57.15 0)
 			(hide yes)
 			(show_name no)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PawBuddy - Dev Board")
-		(rev "V1")
+		(rev "V1.1")
 		(company "Tomas Kuchta")
 	)
 	(lib_symbols
@@ -3632,6 +3632,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 156.21 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d39244bb-3695-47f3-9a1f-c9a6e3f2967e")
 		)
@@ -3964,6 +3975,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 124.46 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0d92d714-e01f-49ae-b239-c1bb72fa5d1a")
 		)
@@ -4138,6 +4160,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 148.59 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bf0b14e9-b1e2-4739-8ff2-fdb902cd29c7")
 		)
@@ -4288,6 +4321,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 105.41 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C475K8PACTU"
 			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4769,8 +4824,19 @@
 				)
 			)
 		)
-		(property "MPN" " AF0603FR-074K7L"
+		(property "MPN" "RE0603DRE074K7L"
 			(at 186.69 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 186.69 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,8 +5004,19 @@
 				)
 			)
 		)
-		(property "MPN" " AF0603FR-074K7L"
+		(property "MPN" "RE0603DRE074K7L"
 			(at 123.19 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 123.19 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5110,6 +5187,17 @@
 			)
 		)
 		(property "MPN" "MIC23050-SYML-TR"
+			(at 139.7 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 139.7 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5375,6 +5463,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 172.72 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 172.72 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C475K8PACTU"
 			(at 172.72 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5706,7 +5816,18 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A476MQYNNWE"
+		(property "MPN" "CL21A476MQYNNNE"
+			(at 167.64 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 167.64 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5809,6 +5930,17 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 193.04 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ff6138af-b0cc-438c-b0d6-b7300bdf62a8")
 		)
@@ -5881,6 +6013,28 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
+			(at 77.47 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "-"
 			(at 77.47 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6292,6 +6446,28 @@
 				)
 			)
 		)
+		(property "Current" ""
+			(at 156.21 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "C0603C561J5GACTU"
+			(at 156.21 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "29dcd6ef-101b-4f13-a7e5-843033a9dfda")
 		)
@@ -6374,6 +6550,17 @@
 			)
 		)
 		(property "MPN" "MAX1811ESA+T "
+			(at 168.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 168.91 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6484,7 +6671,18 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A476MQYNNWE"
+		(property "MPN" "CL21A476MQYNNNE"
+			(at 185.42 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current" ""
 			(at 185.42 132.08 0)
 			(hide yes)
 			(show_name no)
