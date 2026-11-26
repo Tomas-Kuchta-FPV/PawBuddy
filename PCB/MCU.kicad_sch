@@ -2178,12 +2178,6 @@
 		(uuid "07f4be8d-0a82-42d4-9183-f89c4b14d490")
 	)
 	(junction
-		(at 149.86 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a3a389e-617f-44d4-8b65-72b32a2597be")
-	)
-	(junction
 		(at 260.35 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2271,10 +2265,6 @@
 		(at 184.15 72.39)
 		(uuid "e3e44405-ee72-45eb-8f61-27516b83c9c6")
 	)
-	(no_connect
-		(at 135.89 57.15)
-		(uuid "fffbada7-4e51-4f86-98de-6bbe05e96575")
-	)
 	(wire
 		(pts
 			(xy 110.49 43.18) (xy 110.49 40.64)
@@ -2307,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 138.43 107.95)
+			(xy 138.43 102.87) (xy 138.43 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 102.87) (xy 153.67 107.95)
+			(xy 153.67 102.87) (xy 153.67 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 52.07) (xy 133.35 57.15)
+			(xy 133.35 46.99) (xy 133.35 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 107.95) (xy 149.86 105.41)
+			(xy 148.59 102.87) (xy 148.59 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 57.15) (xy 138.43 52.07)
+			(xy 138.43 57.15) (xy 138.43 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2467,13 +2457,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 130.81 107.95)
+			(xy 130.81 102.87) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6fdd08dd-1060-4b27-a8f6-79460b94f887")
+	)
+	(wire
+		(pts
+			(xy 135.89 48.26) (xy 135.89 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72eba0d5-97d1-4c80-8ac8-3afb3a3375c9")
 	)
 	(wire
 		(pts
@@ -2484,16 +2484,6 @@
 			(type default)
 		)
 		(uuid "73e9959e-fe04-4d00-a4d8-652a1290ad9b")
-	)
-	(wire
-		(pts
-			(xy 148.59 102.87) (xy 148.59 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d568f4-7be7-4de5-8d6a-97135f2ae4c6")
 	)
 	(wire
 		(pts
@@ -2597,6 +2587,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 102.87) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8a6b5f-a709-4da6-80b7-a9746e22714f")
+	)
+	(wire
+		(pts
 			(xy 160.02 109.22) (xy 160.02 106.68)
 		)
 		(stroke
@@ -2624,16 +2624,6 @@
 			(type default)
 		)
 		(uuid "afae78c8-5e06-49b4-9c4a-ca431dc014b1")
-	)
-	(wire
-		(pts
-			(xy 151.13 102.87) (xy 151.13 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6fd9d76-0f2f-4f35-88b8-3d41bf45f54b")
 	)
 	(wire
 		(pts
@@ -2707,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 57.15) (xy 148.59 52.07)
+			(xy 148.59 57.15) (xy 148.59 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2737,27 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 105.41) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd686819-6958-4a35-8d4a-59a6dbd58a37")
-	)
-	(wire
-		(pts
-			(xy 151.13 105.41) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d795f6c0-b700-4951-9fd8-fa18125bfc98")
-	)
-	(wire
-		(pts
-			(xy 156.21 57.15) (xy 156.21 52.07)
+			(xy 156.21 57.15) (xy 156.21 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8311,6 +8281,16 @@
 		)
 		(uuid "37db622b-a712-4f2c-b136-a07e6921daef")
 	)
+	(label "VDD_NRF"
+		(at 151.13 111.76 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a097a7c-a0e1-4dd0-af86-96868ce50918")
+	)
 	(label "SWCLK"
 		(at 143.51 109.22 90)
 		(effects
@@ -8350,6 +8330,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0d1cf21-5c6e-4fc6-8c7d-a2094a4281e7")
+	)
+	(label "VDD_NRF"
+		(at 135.89 48.26 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a511a2e0-608e-4714-8005-f643f52fa22e")
 	)
 	(global_label "SCL"
 		(shape output)
@@ -8878,7 +8868,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 153.67 107.95 0)
+		(at 153.67 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8888,7 +8878,7 @@
 		(dnp no)
 		(uuid "2556d8c5-ded1-4e13-8766-a24d06a2980a")
 		(property "Reference" "#PWR013"
-			(at 153.67 114.3 0)
+			(at 153.67 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8899,7 +8889,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 153.67 110.998 90)
+			(at 153.67 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8910,7 +8900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 107.95 0)
+			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,7 +8911,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 107.95 0)
+			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +8922,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 153.67 107.95 0)
+			(at 153.67 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8956,7 +8946,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 130.81 107.95 0)
+		(at 130.81 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8966,7 +8956,7 @@
 		(dnp no)
 		(uuid "2f76e7f5-33de-4319-86a2-dd805af4da89")
 		(property "Reference" "#PWR07"
-			(at 130.81 114.3 0)
+			(at 130.81 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8977,7 +8967,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 130.81 110.998 90)
+			(at 130.81 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8988,7 +8978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 107.95 0)
+			(at 130.81 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8999,7 +8989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 107.95 0)
+			(at 130.81 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9010,7 +9000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 130.81 107.95 0)
+			(at 130.81 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9220,7 +9210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
 			(at 215.9 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9343,7 +9333,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 126.6952 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9493,7 +9483,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 148.59 52.07 180)
+		(at 148.59 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9503,7 +9493,7 @@
 		(dnp no)
 		(uuid "74c97c93-9442-41d3-be6e-c1bed34afc89")
 		(property "Reference" "#PWR011"
-			(at 148.59 45.72 0)
+			(at 148.59 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9514,7 +9504,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 148.59 49.022 90)
+			(at 148.59 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9525,7 +9515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 52.07 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9536,7 +9526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 52.07 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9547,7 +9537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 148.59 52.07 0)
+			(at 148.59 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9571,7 +9561,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 156.21 52.07 180)
+		(at 156.21 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9581,7 +9571,7 @@
 		(dnp no)
 		(uuid "76b601ed-fbd7-4588-bdd1-5b6e95e53dd4")
 		(property "Reference" "#PWR014"
-			(at 156.21 45.72 0)
+			(at 156.21 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9592,7 +9582,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 156.21 49.022 90)
+			(at 156.21 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9603,7 +9593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 52.07 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9614,7 +9604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 52.07 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9625,7 +9615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 156.21 52.07 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9649,7 +9639,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 138.43 52.07 180)
+		(at 138.43 46.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9659,7 +9649,7 @@
 		(dnp no)
 		(uuid "7912a774-d912-47e6-a7f3-7217e65be087")
 		(property "Reference" "#PWR09"
-			(at 138.43 45.72 0)
+			(at 138.43 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9670,7 +9660,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 138.43 49.022 90)
+			(at 138.43 43.942 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9681,7 +9671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 52.07 0)
+			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,7 +9682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 52.07 0)
+			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +9693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 138.43 52.07 0)
+			(at 138.43 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9758,7 +9748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 160.9852 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9830,7 +9820,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 133.35 52.07 0)
+		(at 133.35 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9840,7 +9830,7 @@
 		(dnp no)
 		(uuid "7e8c0476-41a5-4412-a18f-b94c8ae1aad8")
 		(property "Reference" "#PWR053"
-			(at 133.35 55.88 0)
+			(at 133.35 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,7 +9841,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 133.35 48.768 90)
+			(at 133.35 43.688 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9862,7 +9852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 52.07 0)
+			(at 133.35 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9873,7 +9863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 52.07 0)
+			(at 133.35 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9884,7 +9874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 133.35 52.07 0)
+			(at 133.35 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10200,7 +10190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 174.2948 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10303,7 +10293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 253.6952 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10640,7 +10630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 80.3148 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10821,7 +10811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 109.5248 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -11049,7 +11039,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 149.86 107.95 180)
+		(at 148.59 113.03 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11059,7 +11049,7 @@
 		(dnp no)
 		(uuid "d87d473b-c296-4abc-98b5-22069ededb6a")
 		(property "Reference" "#PWR012"
-			(at 149.86 104.14 0)
+			(at 148.59 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11070,7 +11060,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 148.59 112.014 0)
+			(at 147.32 117.094 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11080,7 +11070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 107.95 0)
+			(at 148.59 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11091,7 +11081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 107.95 0)
+			(at 148.59 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11102,7 +11092,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 149.86 107.95 0)
+			(at 148.59 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11543,7 +11533,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 138.43 107.95 0)
+		(at 138.43 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11553,7 +11543,7 @@
 		(dnp no)
 		(uuid "eea93912-03ac-4818-83d3-09d0466c4305")
 		(property "Reference" "#PWR010"
-			(at 138.43 114.3 0)
+			(at 138.43 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11564,7 +11554,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 138.43 110.998 90)
+			(at 138.43 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11575,7 +11565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 107.95 0)
+			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11586,7 +11576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 107.95 0)
+			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11597,7 +11587,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 138.43 107.95 0)
+			(at 138.43 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
