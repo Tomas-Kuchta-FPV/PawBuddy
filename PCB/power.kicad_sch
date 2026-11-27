@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PawBuddy - Dev Board")
-		(rev "V1.2")
+		(rev "V1.25")
 		(company "Tomas Kuchta")
 	)
 	(lib_symbols
@@ -3410,12 +3410,6 @@
 		(uuid "b12e9387-712d-45e6-b977-f9ddda905972")
 	)
 	(junction
-		(at 176.53 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c18d4e33-bf9d-42ad-9474-3bdcf1fe26a9")
-	)
-	(junction
 		(at 76.2 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4204,16 +4198,6 @@
 			(type default)
 		)
 		(uuid "bb442257-8d8d-42db-bcf1-443800b59c7d")
-	)
-	(wire
-		(pts
-			(xy 165.1 43.18) (xy 176.53 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcfa20d0-035d-45f9-b89d-746f4bcbfe5c")
 	)
 	(wire
 		(pts

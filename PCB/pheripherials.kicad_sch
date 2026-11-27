@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "PawBuddy - Dev Board")
-		(rev "V1.2")
+		(rev "V1.25")
 		(company "Tomas Kuchta")
 	)
 	(lib_symbols
